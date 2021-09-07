@@ -238,34 +238,3 @@ cluster = ipp.Cluster(n=4)
 with cluster as rc:
     ar = rc[:].apply_async(os.getpid)
     pid_map = ar.get_dict()
-
-
-# In[ ]:
-
-
-
-
-# In[ ]:
-
-
-
-
-# In[ ]:
-
-
-
-
-# In[ ]:
-
-
-
-
-# In[ ]:
-
-
-
-
-# In[ ]:
-
-
-
